@@ -106,10 +106,9 @@ class _LoginPageState extends State<LoginPage> {
         width: double.infinity,
         height: double.infinity,
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Color(0xFF667eea), Color(0xFF764ba2)],
+          image: DecorationImage(
+            image: AssetImage('assets/images/wallpaper.png'),
+            fit: BoxFit.cover,
           ),
         ),
         child: SafeArea(
@@ -124,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                     const Icon(Icons.flutter_dash, size: 80, color: Colors.white),
                     const SizedBox(height: 16),
                     const Text(
-                      'Babylon Radio',
+                      'Skywalking Monkey',
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -259,12 +258,14 @@ class _LoginPageState extends State<LoginPage> {
                             ElevatedButton(
                               onPressed: _isLoading ? null : _handleLogin,
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: const Color(0xFF667eea),
+                                backgroundColor: Colors.black.withOpacity(0.7),
                                 foregroundColor: Colors.white,
                                 padding: const EdgeInsets.symmetric(vertical: 16),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(12),
                                 ),
+                                elevation: 8,
+                                shadowColor: Colors.black.withOpacity(0.3),
                                 textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                               ),
                               child: _isLoading
