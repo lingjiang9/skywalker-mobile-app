@@ -1,4 +1,4 @@
-# Flutter App Assessment
+# Skywalker mobile app
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.8.0%2B-blue)](https://flutter.dev)
 [![Build](https://img.shields.io/badge/build-passing-brightgreen)](#)
@@ -8,9 +8,24 @@
 
 ## Overview
 
-This is a cross-platform Flutter app supporting iOS, Android, and macOS desktop. It features user authentication with Firebase Authentication (login/signup), stores user data in Firestore database, and displays a personalized welcome home page.
+This mobile application is my new project to explore the possibilities of intergrating space obvervation visualisation, I implemented user authentication and database integration with Firebase.
 
-## Features
+I want to build an app that teaches users about space, the solar system, planets, stars, and other astronomy concepts. I also plan to integrate real-time sky data so users can see:
+
+- What celestial objects are visible right now from their location
+
+- Real-time positions of planets and the Moon
+
+- Upcoming astronomical events (meteor showers, eclipses, ISS flyovers, etc.)
+
+- A live sky map they can explore or point their phone at
+
+- Space weather alerts (e.g., aurora activity)
+
+I’ve just finished the first stage of our authentication process and will be moving on to the next phase.
+Looking for team members for this porject
+
+## Authentication
 
 - **Login Page**
 
