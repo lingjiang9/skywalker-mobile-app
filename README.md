@@ -61,19 +61,6 @@ Looking for team members for this porject
   - Widget test for login with mocked FirebaseAuth and Firestore
   - Uses `mockito` for dependency injection and mocking
 
----
-
-## Screenshots
-
-Login page
-![Login Screen](screenshots/login.jpg)
-Sign up page
-![Signup Screen](screenshots/signup.jpg)
-Log out page
-
-![Drawer Screen](screenshots/logout.png)
-Login and Sign up page
-![Login Validation Screen](screenshots/validation.jpg)
 
 ---
 
@@ -198,14 +185,7 @@ flutter test
 
 ---
 
-## Future Improvements
 
-- Add password reset functionality.
-- Improve accessibility and localization.
-- Add integration tests for navigation flows.
-- Improve code quality.
-- Add CI/CD pipeline for automated testing and builds.
-- Add user profile editing and avatar upload.
 
 ---
 
